@@ -39,7 +39,7 @@ export default function ColorRenderer () {
     //    item in the colors array on the page!
     <>
       {
-        colors.map((c, key) => (<Color key={key} hex={c.hex} name={c.name}/>) )
+        colors.map(color => (<Color key={color.hex} hex={color.hex} name={color.name}/>) )
       }
 
     </>
