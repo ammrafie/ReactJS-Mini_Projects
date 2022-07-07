@@ -1,0 +1,10 @@
+.color-square {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
